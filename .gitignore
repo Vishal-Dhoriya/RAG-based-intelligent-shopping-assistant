@@ -53,6 +53,5 @@ checkpoints/
 # Data Files
 data/logs/              # Exclude conversation logs (privacy)
 *.log
-graph.png
 # Large binary files (optional - comment out if you want to include)
 # data/dataset/clothes_json.joblib
