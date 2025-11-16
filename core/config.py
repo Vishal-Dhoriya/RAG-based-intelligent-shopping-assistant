@@ -15,7 +15,7 @@ class Settings:
     EMBEDDING_MODEL: str = "sentence-transformers/all-MiniLM-L6-v2"
     
     # Data paths - FAISS indices stored here
-    BASE_DIR: Path = Path(__file__).parent.parent.parent
+    BASE_DIR: Path = Path(__file__).parent.parent
     DATA_DIR: Path = BASE_DIR / "data"
     INDICES_DIR: Path = DATA_DIR / "indices"
     
